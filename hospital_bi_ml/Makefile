@@ -46,8 +46,11 @@ format:
 ## Set up Python interpreter environment
 .PHONY: create_environment
 create_environment:
-	@bash -c "if [ ! -z `which virtualenvwrapper.sh` ]; then source `which virtualenvwrapper.sh`; mkvirtualenv $(PROJECT_NAME) --python=$(PYTHON_INTERPRETER); else mkvirtualenv.bat $(PROJECT_NAME) --python=$(PYTHON_INTERPRETER); fi"
-	@echo ">>> New virtualenv created. Activate with:\nworkon $(PROJECT_NAME)"
+	$(PYTHON_INTERPRETER) -m venv .venv
+	@echo ">>> Virtual environment '.venv' created."
+	@echo ">>> Activate with: source .venv/bin/activate  (Linux/Mac)"
+	@echo ">>> Or on Windows: .venv\\Scripts\\activate"
+	@echo ">>> Then install dependencies with: make requirements"
 	
 
 

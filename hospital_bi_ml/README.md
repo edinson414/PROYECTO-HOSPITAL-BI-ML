@@ -6,6 +6,45 @@
 
 Proyecto End-to-End de BI y Machine Learning para análisis hospitalario y predicción de inasistencias.
 
+## Configuración del Entorno Virtual / Virtual Environment Setup
+
+### Requisitos previos / Prerequisites
+- Python 3.10
+
+### Pasos / Steps
+
+1. **Crear el entorno virtual** (desde la carpeta `hospital_bi_ml/`):
+   ```bash
+   make create_environment
+   ```
+   Esto crea una carpeta `.venv` con el entorno aislado.
+
+2. **Activar el entorno virtual**:
+   - Linux / macOS:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - Windows:
+     ```bat
+     .venv\Scripts\activate
+     ```
+
+3. **Instalar las dependencias**:
+   ```bash
+   make requirements
+   ```
+
+4. **Configurar variables de entorno** (opcional):
+   ```bash
+   cp .env.example .env
+   # Edita .env con tus valores
+   ```
+
+5. **Desactivar el entorno** cuando termines:
+   ```bash
+   deactivate
+   ```
+
 ## Project Organization
 
 ```
