@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\0-PROYECTO PERSONAL\\HOSPITAL BI ML\\hospital_bi_ml\\src\\etl\\cubo olap\\Cubo_Hospital_Local\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70DA724E-EE7A-C096-83B1-F40042B928F6}|Cubo_Hospital_Local\\Cubo_Hospital_Local.dwproj|D:\\0-PROYECTO PERSONAL\\HOSPITAL BI ML\\hospital_bi_ml\\src\\etl\\cubo olap\\Cubo_Hospital_Local\\Cubo_Hospital_Local\\DW Hospital.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{70DA724E-EE7A-C096-83B1-F40042B928F6}|Cubo_Hospital_Local\\Cubo_Hospital_Local.dwproj|solutionrelative:Cubo_Hospital_Local\\DW Hospital.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DW Hospital.cube [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\0-PROYECTO PERSONAL\\HOSPITAL BI ML\\hospital_bi_ml\\src\\etl\\cubo olap\\Cubo_Hospital_Local\\Cubo_Hospital_Local\\DW Hospital.cube",
+              "RelativeDocumentMoniker": "Cubo_Hospital_Local\\DW Hospital.cube",
+              "ToolTip": "D:\\0-PROYECTO PERSONAL\\HOSPITAL BI ML\\hospital_bi_ml\\src\\etl\\cubo olap\\Cubo_Hospital_Local\\Cubo_Hospital_Local\\DW Hospital.cube [Dise\u00F1o]",
+              "RelativeToolTip": "Cubo_Hospital_Local\\DW Hospital.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-05T09:57:39.259Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

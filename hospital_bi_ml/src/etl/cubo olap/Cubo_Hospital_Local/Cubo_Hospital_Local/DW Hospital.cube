@@ -1,0 +1,253 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6d57fe91-f4c2-470a-9124-4bad69d6368c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW Hospital</ID>
+  <Name>DW Hospital</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="97faebfe-25bb-40ce-9735-0363aa98b42d">
+      <ID>Dim Pacientes</ID>
+      <Name>Dim Pacientes</Name>
+      <DimensionID>Dim Pacientes</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7e3604bd-f57d-4969-a112-5b277eb02baa">
+          <AttributeID>ID Paciente</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9bdcff83-eac7-4755-97e5-c3a1188d1f76">
+      <ID>Dim Historial Clinico</ID>
+      <Name>Dim Historial Clinico</Name>
+      <DimensionID>Dim Historial Clinico</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6c7ec5f6-7a3d-46d6-a747-b693350dfbe0">
+          <AttributeID>ID Historial</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4e67370b-4d8c-460e-b994-57382f6ce1c1">
+      <ID>Dim Medicos</ID>
+      <Name>Dim Medicos</Name>
+      <DimensionID>Dim Medicos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bd194825-88a3-4a36-b832-112c8fb9a28b">
+          <AttributeID>ID Medico</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="48b217a5-827d-4008-9652-86c412125eac">
+      <ID>Dim Diagnosticos</ID>
+      <Name>Dim Diagnosticos</Name>
+      <DimensionID>Dim Diagnosticos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b28297aa-2466-4d72-bff4-3f7b2b235100">
+          <AttributeID>ID Diagnostico</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8ae3475d-2b73-413a-93a8-6078620cb170">
+      <ID>Dim Tiempo</ID>
+      <Name>Dim Tiempo</Name>
+      <DimensionID>Dim Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="91566300-ae87-450b-adf6-61ccfb752c7f">
+          <AttributeID>ID Tiempo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="48f032e7-34f4-42eb-b26a-5f4c90c74f86">
+      <ID>Dim Recetas</ID>
+      <Name>Dim Recetas</Name>
+      <DimensionID>Dim Recetas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d5e7679e-1a7b-4a60-8140-a8e3bbafb13a">
+          <AttributeID>ID Receta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="e80168e4-e7c0-4dfc-973c-5fbf6f4d4ee6">
+      <ID>Hechos Consultas</ID>
+      <Name>Hechos Consultas</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a754b393-be16-4476-a036-627951ee6e37">
+          <ID>Recuento Hechos Consultas</ID>
+          <Name>Recuento Hechos Consultas</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="67269fbf-a4c7-4cd2-ad59-8d08a21e8575">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2f31a259-af24-49b4-9aa4-334d38ec1ef7">
+              <TableID>dbo_Hechos_Consultas</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="112b8d1f-8d29-48b8-8914-771ac1b0e66b">
+          <CubeDimensionID>Dim Pacientes</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="06bb8329-ab3b-48b5-8b82-57cbbc039488">
+              <AttributeID>ID Paciente</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aa90b18b-b779-4605-a6f7-a0d80be419d5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e661434-e22e-43e8-91af-8c0791b60499">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_pacienteConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7693588e-2ab4-4ba5-83c5-0364b191d894">
+          <CubeDimensionID>Dim Historial Clinico</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="41dbeb01-8f23-4514-90c8-709430f40938">
+              <AttributeID>ID Historial</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="149aaad9-aa43-4375-907c-55145ea9f88c">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4da1ef03-b30d-4339-b957-36095ac22139">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_historialConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2a903514-c10c-4a23-99f2-0e798ecbf884">
+          <CubeDimensionID>Dim Medicos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3cef7dd3-c2f7-41c5-9ab7-a9a6a135b7aa">
+              <AttributeID>ID Medico</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="28e9e23d-67db-4f7b-8e5e-1ff98e5bc836">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88d9886a-a89c-4182-b942-d7a5a03dc6d0">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_medicoConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9068ac59-0e69-47b8-ab2c-59eea77c7876">
+          <CubeDimensionID>Dim Diagnosticos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cc17ddf0-0f34-4ee1-9fab-86cbdcbbfb1c">
+              <AttributeID>ID Diagnostico</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d0ecc03b-be7a-4d2f-b1a8-bdad54f1f018">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cac3d8ea-665e-4492-a603-a56f37da316b">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_DiagnosticoConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3f4227f8-d62a-459c-86b8-f66c9c3fa2ec">
+          <CubeDimensionID>Dim Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bea923f8-20ea-4875-a1ac-794dad03b231">
+              <AttributeID>ID Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0900705d-f32a-4e0e-a0ed-658dac3dcbbc">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a2ce679-598c-401d-bdd7-bf900b59e706">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_tiempoConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="65068890-01bc-4a50-b411-328fe1c9cb25">
+          <CubeDimensionID>Dim Recetas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6a5a15cf-8ce0-437b-b460-12fe3732a67b">
+              <AttributeID>ID Receta</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d8c702d9-24c9-4b9d-8efa-6489b2525c38">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aa6280d1-306b-4f75-b56b-181d7bc5fef1">
+                    <TableID>dbo_Hechos_Consultas</TableID>
+                    <ColumnID>ID_recetaConsulta</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="0a19292e-bfbb-430b-b0da-33a3677fadae">
+    <DataSourceViewID>DW Hospital</DataSourceViewID>
+  </Source>
+</Cube>

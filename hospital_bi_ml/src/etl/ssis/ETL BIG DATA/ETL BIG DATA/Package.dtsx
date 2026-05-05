@@ -7,15 +7,255 @@
   DTS:CreatorName="EDINSON\edins"
   DTS:DTSID="{E23B358D-DDC7-4088-8C5C-22475310D086}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{3681423D-24CE-4828-AA79-8C0009C40DF0}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{94B8406F-1C36-4921-AD6E-02DC88EA5F5B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{AF1CCF9F-F496-462D-89C8-3958480CAE58}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{AF1CCF9F-F496-462D-89C8-3958480CAE58}EDINSON\EDINSONMSSS19PC.DW_Hospital;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{EC41B4A3-2103-4595-A60E-548C21AA8DE4}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{EC41B4A3-2103-4595-A60E-548C21AA8DE4}EDINSON\EDINSONMSSS19PC.DW_Hospital 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 10]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{559E6282-C132-4B6C-A9A6-C6E99B6FBA73}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 10">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{559E6282-C132-4B6C-A9A6-C6E99B6FBA73}EDINSON\EDINSONMSSS19PC.DW_Hospital 10;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 11]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{402BD4B0-AEB7-4103-B164-DDC1951E2219}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 11">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{402BD4B0-AEB7-4103-B164-DDC1951E2219}EDINSON\EDINSONMSSS19PC.DW_Hospital 11;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 12]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CA7378C1-5B76-454C-8D1A-CA3717284DA8}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 12">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{CA7378C1-5B76-454C-8D1A-CA3717284DA8}EDINSON\EDINSONMSSS19PC.DW_Hospital 12;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{57EC494B-0BF9-49FC-B693-6C81F9DE6041}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{57EC494B-0BF9-49FC-B693-6C81F9DE6041}EDINSON\EDINSONMSSS19PC.DW_Hospital 2;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{59D29027-5BB2-4624-B94C-4CEE22CD1013}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{59D29027-5BB2-4624-B94C-4CEE22CD1013}EDINSON\EDINSONMSSS19PC.DW_Hospital 3;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 4]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4B0C999F-259C-4B14-8783-82C0678E8067}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{4B0C999F-259C-4B14-8783-82C0678E8067}EDINSON\EDINSONMSSS19PC.DW_Hospital 4;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 5]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{BBC2381E-F5BB-4C78-A5DB-887AAD3CC870}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{BBC2381E-F5BB-4C78-A5DB-887AAD3CC870}EDINSON\EDINSONMSSS19PC.DW_Hospital 5;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 6]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{6EF1CB14-3B10-493D-BC83-A9FF2F2D59EA}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{6EF1CB14-3B10-493D-BC83-A9FF2F2D59EA}EDINSON\EDINSONMSSS19PC.DW_Hospital 6;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 7]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{704F2568-922B-4276-9CEE-735C0F034694}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{704F2568-922B-4276-9CEE-735C0F034694}EDINSON\EDINSONMSSS19PC.DW_Hospital 7;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 8]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F548DC33-7848-4E1A-BE3A-B34C82DCC9C3}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{F548DC33-7848-4E1A-BE3A-B34C82DCC9C3}EDINSON\EDINSONMSSS19PC.DW_Hospital 8;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 9]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F7EF2191-2CB2-435B-8799-78A28D9B4E45}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.DW_Hospital 9">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=DW_Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{F7EF2191-2CB2-435B-8799-78A28D9B4E45}EDINSON\EDINSONMSSS19PC.DW_Hospital 9;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4AE3F0A4-26D4-413E-84B8-70D976926466}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{4AE3F0A4-26D4-413E-84B8-70D976926466}EDINSON\EDINSONMSSS19PC.Hospital;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{BA6C0885-6518-4BA1-BC78-243CECD99995}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{BA6C0885-6518-4BA1-BC78-243CECD99995}EDINSON\EDINSONMSSS19PC.Hospital 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{96C86A0A-E8F4-4E15-95B1-EBED0EFCA0A9}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{96C86A0A-E8F4-4E15-95B1-EBED0EFCA0A9}EDINSON\EDINSONMSSS19PC.Hospital 2;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 3]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{AD6E0941-085A-456A-AB8D-AE9D8193CAB9}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{AD6E0941-085A-456A-AB8D-AE9D8193CAB9}EDINSON\EDINSONMSSS19PC.Hospital 3;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 4]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{224FF821-4BC6-4EC3-BB70-4A2E788A47C4}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{224FF821-4BC6-4EC3-BB70-4A2E788A47C4}EDINSON\EDINSONMSSS19PC.Hospital 4;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 5]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{494B6406-1CD1-4DBC-99B3-981DA3E4C069}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{494B6406-1CD1-4DBC-99B3-981DA3E4C069}EDINSON\EDINSONMSSS19PC.Hospital 5;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 6]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{18258F4C-DE7C-4635-BCEB-C8B8EADAAF1B}"
+      DTS:ObjectName="EDINSON\EDINSONMSSS19PC.Hospital 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{18258F4C-DE7C-4635-BCEB-C8B8EADAAF1B}EDINSON\EDINSONMSSS19PC.Hospital 6;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
       DTS:CreationName="OLEDB"
@@ -186,7 +426,7 @@
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -220,8 +460,8 @@
               <connections>
                 <connection
                   refId="Package\Dim_Diagnosticos\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 3]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 3]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -317,7 +557,7 @@
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
         e.nombre_enfermedad,
     d.descripción_diagnostico
 FROM 
@@ -349,8 +589,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Diagnosticos\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 1]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -585,7 +825,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -619,8 +859,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Historial_Clinico\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 4]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -714,7 +954,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
 	hc.resumen_historial,
 	hc.fecha_actualización_historial
 FROM 
@@ -744,8 +984,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Dim_Historial_Clinico\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 2]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -1060,7 +1300,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -1094,8 +1334,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Dim_Medicos\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 1]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -1227,7 +1467,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
     m.nombre_medico, 
     m.número_licencia_medico, 
     m.teléfono_medicos, 
@@ -1262,8 +1502,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Medicos\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -1696,7 +1936,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -1730,8 +1970,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Pacientes\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 2]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -1744,53 +1984,46 @@ INNER JOIN
                   name="Entrada de destino de OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of Nombres_paciente]"
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Nombres_paciente]"
                       cachedDataType="wstr"
                       cachedLength="20"
-                      cachedName="Copy of Nombres_paciente"
+                      cachedName="Nombres_paciente"
                       externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[Nombres_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Nombres_paciente]" />
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[Nombres_paciente]" />
                     <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of apellidos_paciente]"
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[apellidos_paciente]"
                       cachedDataType="wstr"
                       cachedLength="20"
-                      cachedName="Copy of apellidos_paciente"
+                      cachedName="apellidos_paciente"
                       externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[apellidos_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of apellidos_paciente]" />
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[apellidos_paciente]" />
                     <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of fecha_nacimiento_paciente]"
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[fecha_nacimiento_paciente]"
                       cachedDataType="dbDate"
-                      cachedName="Copy of fecha_nacimiento_paciente"
+                      cachedName="fecha_nacimiento_paciente"
                       externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[fecha_nacimiento_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of fecha_nacimiento_paciente]" />
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[fecha_nacimiento_paciente]" />
                     <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of telefono_paciente]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Copy of telefono_paciente"
-                      externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[telefono_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of telefono_paciente]" />
-                    <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of email_paciente]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="Copy of email_paciente"
-                      externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[email_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of email_paciente]" />
-                    <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of genero_paciente]"
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[genero_paciente]"
                       cachedDataType="wstr"
                       cachedLength="10"
-                      cachedName="Copy of genero_paciente"
+                      cachedName="genero_paciente"
                       externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[genero_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of genero_paciente]" />
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[genero_paciente]" />
                     <inputColumn
-                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of tipo_documento]"
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[telefono_paciente]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="telefono_paciente"
+                      externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[telefono_paciente]"
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[telefono_paciente]" />
+                    <inputColumn
+                      refId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[email_paciente]"
                       cachedDataType="wstr"
                       cachedLength="50"
-                      cachedName="Copy of tipo_documento"
-                      externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[Documento_paciente]"
-                      lineageId="Package\Dim_Pacientes\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of tipo_documento]" />
+                      cachedName="email_paciente"
+                      externalMetadataColumnId="Package\Dim_Pacientes\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[email_paciente]"
+                      lineageId="Package\Dim_Pacientes\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[email_paciente]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1885,7 +2118,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
     p.Nombres_paciente, 
     p.apellidos_paciente,
 	fecha_nacimiento_paciente,
@@ -1922,8 +2155,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Pacientes\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -2260,7 +2493,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -2294,8 +2527,8 @@ INNER JOIN
               <connections>
                 <connection
                   refId="Package\Dim_Recetas\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 5]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 5]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -2389,7 +2622,7 @@ INNER JOIN
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
 	r.fecha_receta,
 	r.observaciones_receta
 FROM 
@@ -2419,8 +2652,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Dim_Recetas\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 3]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 3]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -2804,7 +3037,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -2838,8 +3071,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Dim_Tiempo\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 6]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 6]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -2889,18 +3122,18 @@ FROM
                       externalMetadataColumnId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DiaTiempo]"
                       lineageId="Package\Dim_Tiempo\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[DiaTiempo]" />
                     <inputColumn
-                      refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[Copy of DiaSemanaTiempo]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="Copy of DiaSemanaTiempo"
-                      externalMetadataColumnId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DiaSemanaTiempo]"
-                      lineageId="Package\Dim_Tiempo\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DiaSemanaTiempo]" />
-                    <inputColumn
                       refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[TrimestreTiempo]"
                       cachedDataType="i4"
                       cachedName="TrimestreTiempo"
                       externalMetadataColumnId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[TrimestreTiempo]"
                       lineageId="Package\Dim_Tiempo\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[TrimestreTiempo]" />
+                    <inputColumn
+                      refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[DiaSemanaTiempo]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="DiaSemanaTiempo"
+                      externalMetadataColumnId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DiaSemanaTiempo]"
+                      lineageId="Package\Dim_Tiempo\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[DiaSemanaTiempo]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2931,7 +3164,7 @@ FROM
                     <externalMetadataColumn
                       refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[NombreMesTiempo]"
                       dataType="wstr"
-                      length="20"
+                      length="50"
                       name="NombreMesTiempo" />
                     <externalMetadataColumn
                       refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DiaTiempo]"
@@ -2940,7 +3173,7 @@ FROM
                     <externalMetadataColumn
                       refId="Package\Dim_Tiempo\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DiaSemanaTiempo]"
                       dataType="wstr"
-                      length="10"
+                      length="30"
                       name="DiaSemanaTiempo" />
                   </externalMetadataColumns>
                 </input>
@@ -2995,7 +3228,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
     fecha_consulta AS FechaTiempo,
     DATEPART(YEAR, fecha_consulta) AS AñoTiempo,
     CASE 
@@ -3034,8 +3267,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Dim_Tiempo\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 4]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -3528,7 +3761,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -3553,7 +3786,7 @@ FROM
                 <property
                   dataType="System.String"
                   description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS,ROWS_PER_BATCH = 1000</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
@@ -3562,8 +3795,8 @@ FROM
               <connections>
                 <connection
                   refId="Package\Hechos_Consultas\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.DW_Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 9]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.DW_Hospital 9]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -3717,7 +3950,7 @@ FROM
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT 
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT 
     dp.ID_paciente AS ID_pacienteConsulta,
     dm.ID_medico AS ID_medicoConsulta,
     dh.ID_historial AS ID_historialConsulta,
@@ -3728,19 +3961,19 @@ FROM
     c.motivo_consulta AS MotivoConsulta
 FROM 
     Hospital.dbo.Consultas c
--- Relacionar con las tablas operativas en la base de datos `Hospital`
+-- Cruzamos a las tablas operativas para obtener el dato "llave"
 INNER JOIN Hospital.dbo.Pacientes pac ON pac.ID_paciente = c.ID_paciente_consulta
 INNER JOIN Hospital.dbo.Medicos med ON med.ID_medico = c.ID_medico_consulta
 INNER JOIN Hospital.dbo.Historial_Clinico hist ON hist.ID_historial = c.ID_historial_Consulta
 INNER JOIN Hospital.dbo.Diagnosticos diag ON diag.ID_diagnostico = c.ID_Diagnostico_Consulta
 INNER JOIN Hospital.dbo.Recetas rec ON rec.ID_receta = c.ID_receta_Consulta
--- Relacionar con las tablas del Data Mart `DW_Hospital`
-INNER JOIN DW_Hospital.dbo.Dim_Pacientes dp ON dp.email_paciente = pac.email_paciente
-INNER JOIN DW_Hospital.dbo.Dim_Medicos dm ON dm.email_medicos = med.email_medicos
-INNER JOIN DW_Hospital.dbo.Dim_Historial_Clinico dh ON dh.resumen_historial = hist.resumen_historial
-INNER JOIN DW_Hospital.dbo.Dim_Diagnosticos dd ON dd.descripción_diagnostico = diag.descripción_diagnostico
-INNER JOIN DW_Hospital.dbo.Dim_Recetas dr ON dr.observaciones_receta = rec.observaciones_receta
-INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</property>
+-- Usamos CROSS APPLY con TOP 1 para asegurar que NUNCA se dupliquen las filas, incluso si hay descripciones repetidas.
+CROSS APPLY (SELECT TOP 1 ID_paciente FROM DW_Hospital.dbo.Dim_Pacientes WHERE email_paciente = pac.email_paciente) dp
+CROSS APPLY (SELECT TOP 1 ID_medico FROM DW_Hospital.dbo.Dim_Medicos WHERE email_medicos = med.email_medicos) dm
+CROSS APPLY (SELECT TOP 1 ID_historial FROM DW_Hospital.dbo.Dim_Historial_Clinico WHERE resumen_historial = hist.resumen_historial) dh
+CROSS APPLY (SELECT TOP 1 ID_diagnostico FROM DW_Hospital.dbo.Dim_Diagnosticos WHERE descripción_diagnostico = diag.descripción_diagnostico) dd
+CROSS APPLY (SELECT TOP 1 ID_receta FROM DW_Hospital.dbo.Dim_Recetas WHERE observaciones_receta = rec.observaciones_receta) dr
+CROSS APPLY (SELECT TOP 1 ID_tiempo FROM DW_Hospital.dbo.Dim_Tiempo WHERE FechaTiempo = c.fecha_consulta) dt;</property>
                 <property
                   dataType="System.String"
                   description="Variable que contiene el comando SQL para ejecutar."
@@ -3766,8 +3999,8 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
               <connections>
                 <connection
                   refId="Package\Hechos_Consultas\Origen de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
-                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\MSSQLSERVER22.Hospital]"
+                  connectionManagerID="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 6]"
+                  connectionManagerRefId="Package.ConnectionManagers[EDINSON\EDINSONMSSS19PC.Hospital 6]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -3979,7 +4212,7 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{49D16B8A-4C2F-431B-9011-C75813266AF3}"
+          SQLTask:Connection="{559E6282-C132-4B6C-A9A6-C6E99B6FBA73}"
           SQLTask:SqlStatementSource="DELETE FROM Hechos_Consultas&#xA;DELETE FROM Dim_Pacientes&#xA;DELETE FROM Dim_Medicos&#xA;DELETE FROM Dim_Diagnosticos&#xA;DELETE FROM Dim_Tiempo&#xA;DELETE FROM Dim_Recetas;&#xA;DELETE FROM Dim_Historial_Clinico&#xA;DELETE FROM Hechos_Consultas;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -4095,63 +4328,63 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="162.4,41.6"
+          Size="162,42"
           Id="Package\Dim_Diagnosticos"
           TopLeft="382.380953194941,263.313725259391" />
         <NodeLayout
-          Size="176.8,41.6"
+          Size="177,42"
           Id="Package\Dim_Historial_Clinico"
           TopLeft="926.428573400695,266.968627573198" />
         <NodeLayout
-          Size="140.8,41.6"
+          Size="141,42"
           Id="Package\Dim_Medicos"
           TopLeft="209.523809969831,260.913725350551" />
         <NodeLayout
-          Size="147.2,41.6"
+          Size="147,42"
           Id="Package\Dim_Pacientes"
           TopLeft="29.2857143480559,255.411764482004" />
         <NodeLayout
-          Size="139.2,41.6"
+          Size="139,42"
           Id="Package\Dim_Recetas"
           TopLeft="741.904763484082,271.152941205964" />
         <NodeLayout
-          Size="137.6,41.6"
+          Size="138,42"
           Id="Package\Dim_Tiempo"
           TopLeft="561.428572623706,266.92549014022" />
         <NodeLayout
-          Size="164,41.6"
+          Size="164,42"
           Id="Package\Hechos_Consultas"
           TopLeft="488.114286748244,447.352940784348" />
         <NodeLayout
-          Size="112.8,41.6"
+          Size="113,42"
           Id="Package\Limpiar"
           TopLeft="502.380953450389,68.8235293514381" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="102.885714348056,297.011764482004">
+          TopLeft="102.785714348056,297.411764482004">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="411.514286685902,150.341176302344"
+              EndConnector="411.614286685902,149.941176302344"
               Start="0,0"
-              End="411.514286685902,142.841176302344">
+              End="411.614286685902,142.441176302344">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,109.846748281722" />
+                    End="0,109.543845907052" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,109.846748281722"
-                    Point2="0,113.846748281722"
-                    Point3="4,113.846748281722" />
+                    Point1="0,109.543845907052"
+                    Point2="0,113.543845907052"
+                    Point3="4,113.543845907052" />
                   <mssgle:LineSegment
-                    End="407.514286685902,113.846748281722" />
+                    End="407.614286685902,113.543845907052" />
                   <mssgle:CubicBezierSegment
-                    Point1="407.514286685902,113.846748281722"
-                    Point2="411.514286685902,113.846748281722"
-                    Point3="411.514286685902,117.846748281722" />
+                    Point1="407.614286685902,113.543845907052"
+                    Point2="411.614286685902,113.543845907052"
+                    Point3="411.614286685902,117.543845907052" />
                   <mssgle:LineSegment
-                    End="411.514286685902,142.841176302344" />
+                    End="411.614286685902,142.441176302344" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4162,30 +4395,30 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
-          TopLeft="279.923809969831,302.513725350551">
+          TopLeft="280.023809969831,302.913725350551">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="256.761905349841,144.839215433797"
+              EndConnector="256.661905349842,144.439215433797"
               Start="0,0"
-              End="256.761905349841,137.339215433797">
+              End="256.661905349842,136.939215433797">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,86.9602950317281" />
+                    End="0,86.709091530634" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,86.9602950317281"
-                    Point2="0,90.9602950317281"
-                    Point3="4,90.9602950317281" />
+                    Point1="0,86.709091530634"
+                    Point2="0,90.709091530634"
+                    Point3="4,90.709091530634" />
                   <mssgle:LineSegment
-                    End="252.761905349841,90.9602950317281" />
+                    End="252.661905349842,90.709091530634" />
                   <mssgle:CubicBezierSegment
-                    Point1="252.761905349841,90.9602950317281"
-                    Point2="256.761905349841,90.9602950317281"
-                    Point3="256.761905349841,94.9602950317281" />
+                    Point1="252.661905349842,90.709091530634"
+                    Point2="256.661905349842,90.709091530634"
+                    Point3="256.661905349842,94.709091530634" />
                   <mssgle:LineSegment
-                    End="256.761905349841,137.339215433797" />
+                    End="256.661905349842,136.939215433797" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4264,30 +4497,30 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="463.580953194941,304.913725259391">
+          TopLeft="463.380953194941,305.313725259391">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="95.3904764104456,142.439215524957"
+              EndConnector="95.5904764104459,142.039215524957"
               Start="0,0"
-              End="95.3904764104456,134.939215524957">
+              End="95.5904764104459,134.539215524957">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,72.4113174872199" />
+                    End="0,72.1967380479676" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,72.4113174872199"
-                    Point2="0,76.4113174872199"
-                    Point3="4,76.4113174872199" />
+                    Point1="0,72.1967380479676"
+                    Point2="0,76.1967380479676"
+                    Point3="4,76.1967380479676" />
                   <mssgle:LineSegment
-                    End="91.3904764104456,76.4113174872199" />
+                    End="91.5904764104459,76.1967380479676" />
                   <mssgle:CubicBezierSegment
-                    Point1="91.3904764104456,76.4113174872199"
-                    Point2="95.3904764104456,76.4113174872199"
-                    Point3="95.3904764104456,80.4113174872199" />
+                    Point1="91.5904764104459,76.1967380479676"
+                    Point2="95.5904764104459,76.1967380479676"
+                    Point3="95.5904764104459,80.1967380479676" />
                   <mssgle:LineSegment
-                    End="95.3904764104456,134.939215524957" />
+                    End="95.5904764104459,134.539215524957" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4298,30 +4531,30 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
-          TopLeft="630.228572623706,308.52549014022">
+          TopLeft="630.428572623706,308.92549014022">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-48.9714287326052,138.827450644128"
+              EndConnector="-49.1714287326049,138.427450644128"
               Start="0,0"
-              End="-48.9714287326052,131.327450644128">
+              End="-49.1714287326049,130.927450644128">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,70.4737912801209" />
+                    End="0,70.2592118408686" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,70.4737912801209"
-                    Point2="0,74.4737912801209"
-                    Point3="-4,74.4737912801209" />
+                    Point1="0,70.2592118408686"
+                    Point2="0,74.2592118408686"
+                    Point3="-4,74.2592118408686" />
                   <mssgle:LineSegment
-                    End="-44.9714287326052,74.4737912801209" />
+                    End="-45.1714287326049,74.2592118408686" />
                   <mssgle:CubicBezierSegment
-                    Point1="-44.9714287326052,74.4737912801209"
-                    Point2="-48.9714287326052,74.4737912801209"
-                    Point3="-48.9714287326052,78.4737912801209" />
+                    Point1="-45.1714287326049,74.2592118408686"
+                    Point2="-49.1714287326049,74.2592118408686"
+                    Point3="-49.1714287326049,78.2592118408686" />
                   <mssgle:LineSegment
-                    End="-48.9714287326052,131.327450644128" />
+                    End="-49.1714287326049,130.927450644128" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4332,30 +4565,30 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 4]"
-          TopLeft="811.504763484082,312.752941205964">
+          TopLeft="811.404763484082,313.152941205964">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-207.961905307267,134.599999578384"
+              EndConnector="-207.861905307267,134.199999578384"
               Start="0,0"
-              End="-207.961905307267,127.099999578384">
+              End="-207.861905307267,126.699999578384">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,80.5299778533833" />
+                    End="0,80.2787743522893" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,80.5299778533833"
-                    Point2="0,84.5299778533833"
-                    Point3="-4,84.5299778533833" />
+                    Point1="0,80.2787743522893"
+                    Point2="0,84.2787743522893"
+                    Point3="-4,84.2787743522893" />
                   <mssgle:LineSegment
-                    End="-203.961905307267,84.5299778533833" />
+                    End="-203.861905307267,84.2787743522893" />
                   <mssgle:CubicBezierSegment
-                    Point1="-203.961905307267,84.5299778533833"
-                    Point2="-207.961905307267,84.5299778533833"
-                    Point3="-207.961905307267,88.5299778533833" />
+                    Point1="-203.861905307267,84.2787743522893"
+                    Point2="-207.861905307267,84.2787743522893"
+                    Point3="-207.861905307267,88.2787743522893" />
                   <mssgle:LineSegment
-                    End="-207.961905307267,127.099999578384" />
+                    End="-207.861905307267,126.699999578384" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4366,30 +4599,30 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 5]"
-          TopLeft="1014.82857340069,308.568627573198">
+          TopLeft="1014.92857340069,308.968627573198">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-389.000000938166,138.78431321115"
+              EndConnector="-389.100000938165,138.38431321115"
               Start="0,0"
-              End="-389.000000938166,131.28431321115">
+              End="-389.100000938165,130.88431321115">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,101.09524509657" />
+                    End="0,100.7923427219" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,101.09524509657"
-                    Point2="0,105.09524509657"
-                    Point3="-4,105.09524509657" />
+                    Point1="0,100.7923427219"
+                    Point2="0,104.7923427219"
+                    Point3="-4,104.7923427219" />
                   <mssgle:LineSegment
-                    End="-385.000000938166,105.09524509657" />
+                    End="-385.100000938165,104.7923427219" />
                   <mssgle:CubicBezierSegment
-                    Point1="-385.000000938166,105.09524509657"
-                    Point2="-389.000000938166,105.09524509657"
-                    Point3="-389.000000938166,109.09524509657" />
+                    Point1="-385.100000938165,104.7923427219"
+                    Point2="-389.100000938165,104.7923427219"
+                    Point3="-389.100000938165,108.7923427219" />
                   <mssgle:LineSegment
-                    End="-389.000000938166,131.28431321115" />
+                    End="-389.100000938165,130.88431321115" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4541,17 +4774,17 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
     design-time-name="Package\Dim_Diagnosticos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Diagnosticos\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Diagnosticos\Destino de OLE DB"
           TopLeft="445.999993354082,443.999993383884" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Diagnosticos\Conversión de datos"
           TopLeft="327.999995112419,265.999996036291" />
         <EdgeLayout
@@ -4585,9 +4818,7 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -4621,9 +4852,7 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4656,15 +4885,15 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Historial_Clinico\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Historial_Clinico\Destino de OLE DB"
           TopLeft="458.571429547607,383.882352604689" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Historial_Clinico\Conversión de datos"
           TopLeft="299.285714922815,214.117646871141" />
         <EdgeLayout
@@ -4769,15 +4998,15 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Medicos\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Medicos\Conversión de datos"
           TopLeft="299.285714922815,214.117646871141" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Medicos\Destino de OLE DB"
           TopLeft="458.571429547607,383.882352604689" />
         <EdgeLayout
@@ -4882,53 +5111,17 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Pacientes\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Pacientes\Conversión de datos"
           TopLeft="299.285714922815,214.117646871141" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Pacientes\Destino de OLE DB"
           TopLeft="458.571429547607,383.882352604689" />
-        <EdgeLayout
-          Id="Package\Dim_Pacientes.Paths[Salida de conversión de datos]"
-          TopLeft="386.485714922815,255.717646871141">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="156.085714624792,128.164705733548"
-              Start="0,0"
-              End="156.085714624792,120.664705733548">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.0823528667738" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,60.0823528667738"
-                    Point2="0,64.0823528667738"
-                    Point3="4,64.0823528667738" />
-                  <mssgle:LineSegment
-                    End="152.085714624792,64.0823528667738" />
-                  <mssgle:CubicBezierSegment
-                    Point1="152.085714624792,64.0823528667738"
-                    Point2="156.085714624792,64.0823528667738"
-                    Point3="156.085714624792,68.0823528667738" />
-                  <mssgle:LineSegment
-                    End="156.085714624792,120.664705733548" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Dim_Pacientes.Paths[Salida de origen de OLE DB]"
           TopLeft="218.742857434798,85.1882352559109">
@@ -4955,6 +5148,42 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
                     Point3="167.742857488017,68.4647058076151" />
                   <mssgle:LineSegment
                     End="167.742857488017,121.42941161523" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Dim_Pacientes.Paths[Salida de conversión de datos]"
+          TopLeft="386.485714922815,255.717646871141">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="156.085714624792,128.164705733548"
+              Start="0,0"
+              End="156.085714624792,120.664705733548">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.0823528667738" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,60.0823528667738"
+                    Point2="0,64.0823528667738"
+                    Point3="4,64.0823528667738" />
+                  <mssgle:LineSegment
+                    End="152.085714624792,64.0823528667738" />
+                  <mssgle:CubicBezierSegment
+                    Point1="152.085714624792,64.0823528667738"
+                    Point2="156.085714624792,64.0823528667738"
+                    Point3="156.085714624792,68.0823528667738" />
+                  <mssgle:LineSegment
+                    End="156.085714624792,120.664705733548" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4993,17 +5222,17 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
     design-time-name="Package\Dim_Recetas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Recetas\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Recetas\Destino de OLE DB"
           TopLeft="458.571429547607,383.882352604689" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Recetas\Conversión de datos"
           TopLeft="299.285714922815,214.117646871141" />
         <EdgeLayout
@@ -5037,9 +5266,7 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5073,9 +5300,7 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5106,17 +5331,17 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
     design-time-name="Package\Dim_Tiempo">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Dim_Tiempo\Destino de OLE DB"
           TopLeft="458.571429547607,383.882352604689" />
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Dim_Tiempo\Origen de OLE DB"
           TopLeft="137.142857434798,43.5882352559109" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Dim_Tiempo\Conversión de datos"
           TopLeft="299.285714922815,214.117646871141" />
         <EdgeLayout
@@ -5150,45 +5375,41 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Dim_Tiempo.Paths[Salida de conversión de datos]"
-          TopLeft="386.485714922815,255.717646871141">
+          TopLeft="386.285714922815,256.117646871141">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="156.085714624792,128.164705733548"
+              EndConnector="156.285714624792,127.764705733548"
               Start="0,0"
-              End="156.085714624792,120.664705733548">
+              End="156.285714624792,120.264705733548">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.0823528667738" />
+                    End="0,59.882352866774" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,60.0823528667738"
-                    Point2="0,64.0823528667738"
-                    Point3="4,64.0823528667738" />
+                    Point1="0,59.882352866774"
+                    Point2="0,63.882352866774"
+                    Point3="4,63.882352866774" />
                   <mssgle:LineSegment
-                    End="152.085714624792,64.0823528667738" />
+                    End="152.285714624792,63.882352866774" />
                   <mssgle:CubicBezierSegment
-                    Point1="152.085714624792,64.0823528667738"
-                    Point2="156.085714624792,64.0823528667738"
-                    Point3="156.085714624792,68.0823528667738" />
+                    Point1="152.285714624792,63.882352866774"
+                    Point2="156.285714624792,63.882352866774"
+                    Point3="156.285714624792,67.882352866774" />
                   <mssgle:LineSegment
-                    End="156.085714624792,120.664705733548" />
+                    End="156.285714624792,120.264705733548" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5221,15 +5442,15 @@ INNER JOIN DW_Hospital.dbo.Dim_Tiempo dt ON dt.FechaTiempo = c.fecha_consulta</p
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="168,41.6"
+          Size="168,42"
           Id="Package\Hechos_Consultas\Destino de OLE DB"
           TopLeft="400.714286567301,441.235293730887" />
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Hechos_Consultas\Origen de OLE DB"
           TopLeft="172.85714322511,108.588235198936" />
         <NodeLayout
-          Size="174.4,41.6"
+          Size="174,42"
           Id="Package\Hechos_Consultas\Conversión de datos"
           TopLeft="264.285714848309,248.52941154686" />
         <EdgeLayout

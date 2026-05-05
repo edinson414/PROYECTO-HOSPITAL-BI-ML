@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="EDINSON_EDINSONMSSS19PC.Hospital"
+  DTS:DTSID="{7B969A59-B45B-4741-9575-67FA137BD7EE}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EDINSON\EDINSONMSSS19PC;Initial Catalog=Hospital;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETL BIG DATA-{7B969A59-B45B-4741-9575-67FA137BD7EE}EDINSON\EDINSONMSSS19PC.Hospital;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
