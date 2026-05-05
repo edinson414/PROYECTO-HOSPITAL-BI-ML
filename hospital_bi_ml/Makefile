@@ -51,6 +51,12 @@ create_environment:
 	@echo ">>> Activate with: source .venv/bin/activate  (Linux/Mac)"
 	@echo ">>> Or on Windows: .venv\\Scripts\\activate"
 	@echo ">>> Then install dependencies with: make requirements"
+	@if [ ! -f .env ]; then \
+		cp .env.example .env; \
+		echo ">>> .env file created from .env.example. Edit it with your values."; \
+	else \
+		echo ">>> .env file already exists. Skipping creation."; \
+	fi
 	
 
 
