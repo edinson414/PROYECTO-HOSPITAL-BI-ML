@@ -8,8 +8,8 @@ numpy
 pandas
 pip
 python-dotenv
+pyodbc
 ruff
 scikit-learn
 tqdm
 typer
--e .

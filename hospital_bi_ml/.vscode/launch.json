@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run ETL (run_etl.py)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_etl.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "Test DB Connection (test_connection.py)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/etl/python/test_connection.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

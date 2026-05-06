@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f25f93ef-bbeb-426c-aa66-86579aeadac1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d300222f-4158-455f-8344-7c1191254c64" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Medicos</ID>
   <Name>Dim Medicos</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2586" scrolltop="-4180" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9525" y="11933" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Medicos" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4313" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d9100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Medicos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2586</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4180</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,32 +68,133 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e7c414df-7d39-4722-b787-0d6211f6f12d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e5aefb2c-e57d-461a-a243-467ba98930de">
     <DataSourceViewID>DW Hospital</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="5b5a8ea0-a281-40b2-b85e-2448d7787b10">
+  <ErrorConfiguration dwd:design-time-name="fa906a29-2273-4c11-91f5-a66fe11c6a29">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="4064a5d7-6363-40c5-b4f9-9093d7068d6e">
+    <Attribute dwd:design-time-name="0816668b-d956-4206-b490-69be01a6598d">
       <ID>ID Medico</ID>
       <Name>ID Medico</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0cbe6e6c-990e-4a07-a96a-be830fccaf5c">
+        <KeyColumn dwd:design-time-name="3dad5b7d-69f9-4c4a-921e-ec96833d58ee">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e6693cb-d00d-4bb8-b856-084e8e9926f0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8c62808-06cd-450e-a98c-0fbd3c6e4951">
             <TableID>dbo_Dim_Medicos</TableID>
             <ColumnID>ID_medico</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9e4bdf52-169f-4b70-b2dd-ac0d93199d1f">
+          <AttributeID>Nombre Medico</AttributeID>
+          <Name>Nombre Medico</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8884c8c-1ecd-442a-a40f-1f7e7400e5b6">
+          <AttributeID>Número Licencia Medico</AttributeID>
+          <Name>Número Licencia Medico</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d115e69a-91be-4841-be3d-fd451fd46807">
+          <AttributeID>Teléfono Medicos</AttributeID>
+          <Name>Teléfono Medicos</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b96a1ab9-f1f8-4f28-b312-fe976a8459ff">
+          <AttributeID>Email Medicos</AttributeID>
+          <Name>Email Medicos</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c0ee94c-851f-4116-a025-90b938565ad1">
+          <AttributeID>Especialidad Medico</AttributeID>
+          <Name>Especialidad Medico</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eae6d9eb-eba6-4fb1-8b17-32f703826b37">
+      <ID>Nombre Medico</ID>
+      <Name>Nombre Medico</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84152cf9-32e2-46c2-b2bf-1134619939c0">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95dafcde-9cc8-4883-9b3d-ced08fab1e08">
+            <TableID>dbo_Dim_Medicos</TableID>
+            <ColumnID>nombre_medico</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eac19a24-b113-4389-a06e-1fb0221ad274">
+      <ID>Número Licencia Medico</ID>
+      <Name>Número Licencia Medico</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a7229edd-0160-48a2-ba33-8ef95bf1f967">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7b102a6-db0d-4f61-b3a6-44b595b1b01c">
+            <TableID>dbo_Dim_Medicos</TableID>
+            <ColumnID>número_licencia_medico</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fd487197-b172-49d3-bbb2-000f34e397ac">
+      <ID>Teléfono Medicos</ID>
+      <Name>Teléfono Medicos</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6e186179-f33a-402f-a49f-d0bab7afafd9">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6cb7e51-61de-4611-bf5e-0ca646cd5b13">
+            <TableID>dbo_Dim_Medicos</TableID>
+            <ColumnID>teléfono_medicos</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c07a0d6e-3762-4b0e-aae8-7765df557cdc">
+      <ID>Email Medicos</ID>
+      <Name>Email Medicos</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0ae5325d-7beb-4700-a9c8-61c79f28c0cf">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="164df1e2-4a34-4795-a163-f029866dbf9c">
+            <TableID>dbo_Dim_Medicos</TableID>
+            <ColumnID>email_medicos</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="571a29f8-4e1e-4134-b8e8-a5641f80502c">
+      <ID>Especialidad Medico</ID>
+      <Name>Especialidad Medico</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5dedb08b-fe60-4e2b-a568-71dff918ad5a">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20abda99-c346-45d2-af52-f68eb950e999">
+            <TableID>dbo_Dim_Medicos</TableID>
+            <ColumnID>Especialidad_medico</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

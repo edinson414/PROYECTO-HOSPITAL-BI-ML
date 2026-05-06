@@ -33,49 +33,49 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wIBYn9pVYcdeJtxOpu8IjKbRi+Y=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>/a0KJky6CCybstdqPnYGRCx7Ss0=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Pacientes</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>p37Ky/Vm/qF1bpVqTpXPlwn4iuY=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>xw7OhHwYpAeCZO9H+PaZEfT5/nc=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Historial Clinico</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>DsH4wDCuC5L3ikjkfitZyIrl5R0=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>gZp9hBSy0clM2hwT7h0p/hd8LR4=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Medicos</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9lo4CG1e+53ByhHQm8emlBQ8sMs=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>cmRbIpotJqH2cYmUtTDMItsbbvY=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Diagnosticos</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Q27k3SQYtBtd5FltKzh/YnHcxcA=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>fIgXLja5dI1G1GLbQx86MTkPiWs=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Tiempo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>SqoP3UOJYgRzIiyGrednYKwnUgg=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>MzRC/+SquF7QhmKl5BoBne4MHUI=5/05/2026 13:13:155/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>Dim Recetas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>NMWyErDu6IlCyEmMoQQHFdRM/ts=5/05/2026 04:57:395/05/2026 04:57:39fdcNkJrqAQxm3UqusBRSQig6QRw=5/05/2026 04:57:395/05/2026 04:57:39</TimeStamp>
+        <TimeStamp>SaXBSTy5PHD4Uqwb7+gG+gHj0AU=5/05/2026 13:13:155/05/2026 13:12:31bNT6kJ4op88alLe1Rd8oI8VhdV4=5/05/2026 13:12:315/05/2026 13:12:31</TimeStamp>
         <ID>
           <String>DW Hospital</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-05-05T09:58:24.306667Z</LastDeployed>
+  <LastDeployed>2026-05-05T18:13:25.396667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 from dotenv import load_dotenv
 from loguru import logger
@@ -9,6 +10,14 @@ load_dotenv()
 # Paths
 PROJ_ROOT = Path(__file__).resolve().parents[1]
 logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
+
+# SQL Server Configuration
+DB_SERVER = os.getenv("DB_SERVER", "EDINSON\\EDINSONMSSS19PC")
+DB_DRIVER = os.getenv("DB_DRIVER", "ODBC Driver 17 for SQL Server")
+DB_USER = os.getenv("DB_USER", "")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "")
+DB_TRANSACTIONAL = os.getenv("DB_TRANSACTIONAL", "HospitalBigData")
+DB_DATAWAREHOUSE = os.getenv("DB_DATAWAREHOUSE", "DW_Hospital")
 
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
